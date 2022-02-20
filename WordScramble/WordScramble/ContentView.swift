@@ -34,6 +34,8 @@ struct ContentView: View {
                 }
             }
             .navigationTitle(rootWord)
+            .toolbar {
+                Button("Start Game", action: startGame)}
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
             .alert(errorTitle, isPresented: $showingError){
@@ -41,6 +43,7 @@ struct ContentView: View {
             } message: {
                 Text(errorMessage)
             }
+            
         }
     }
     
@@ -63,6 +66,11 @@ struct ContentView: View {
         
         guard isReal(word: answer) else {
             wordError(title: "Word not reconized", message: "You can't just make them up, you know!")
+            return
+        }
+        
+        guard isLongEnough(word: answer) else {
+            wordError(title: "Word is too shour", message: "Please type longer than 3 letters")
             return
         }
     
@@ -117,6 +125,12 @@ struct ContentView: View {
         errorTitle = title
         errorMessage = message
         showingError = true
+        
+    }
+    
+    func isLongEnough(word: String) -> Bool{
+        
+        return word.count > 3 ? true : false
         
     }
         
