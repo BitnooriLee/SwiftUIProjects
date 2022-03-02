@@ -1,23 +1,16 @@
 //
 //  ContentView.swift
-//  Drawing
+//  CupcakeCorner
 //
-//  Created by Bitnoori Lee on 2022-02-25.
+//  Created by Bitnoori Lee on 2022-02-27.
 //
 
 import SwiftUI
 
-
-
-
-
 struct ContentView: View {
-
     var body: some View {
-        ZStack {
-            Image(
-            
-        }
+        Text("Hello, world!")
+            .padding()
     }
 }
 
