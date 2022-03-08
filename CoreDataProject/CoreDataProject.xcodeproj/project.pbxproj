@@ -7,28 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9B9CBF527CB85E8003B939B /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9CBF427CB85E8003B939B /* CupcakeCornerApp.swift */; };
-		A9B9CBF727CB85E8003B939B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9CBF627CB85E8003B939B /* ContentView.swift */; };
-		A9B9CBF927CB85E8003B939B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B9CBF827CB85E8003B939B /* Assets.xcassets */; };
-		A9B9CBFC27CB85E8003B939B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B9CBFB27CB85E8003B939B /* Preview Assets.xcassets */; };
-		A9B9CC0327CD4DBB003B939B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9CC0227CD4DBB003B939B /* Order.swift */; };
-		A9B9CC0527CD5233003B939B /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9CC0427CD5233003B939B /* AddressView.swift */; };
-		A9B9CC0727CD5363003B939B /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9CC0627CD5363003B939B /* CheckoutView.swift */; };
+		A96C9D8227D26F6400EDF953 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9D8127D26F6400EDF953 /* CoreDataProjectApp.swift */; };
+		A96C9D8427D26F6400EDF953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9D8327D26F6400EDF953 /* ContentView.swift */; };
+		A96C9D8627D26F6400EDF953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96C9D8527D26F6400EDF953 /* Assets.xcassets */; };
+		A96C9D8927D26F6400EDF953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96C9D8827D26F6400EDF953 /* Preview Assets.xcassets */; };
+		A96C9D9327D26FE200EDF953 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96C9D9127D26FE200EDF953 /* CoreDataProject.xcdatamodeld */; };
+		A96C9D9527D2703B00EDF953 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9D9427D2703B00EDF953 /* DataController.swift */; };
+		A96C9D9F27D3E8AC00EDF953 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9D9E27D3E8AC00EDF953 /* FilteredList.swift */; };
+		A96C9DA427D3FBA700EDF953 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9DA027D3FBA700EDF953 /* Candy+CoreDataClass.swift */; };
+		A96C9DA627D3FBA700EDF953 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9DA227D3FBA700EDF953 /* Country+CoreDataClass.swift */; };
+		A96C9DA727D3FBA700EDF953 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C9DA327D3FBA700EDF953 /* Country+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A9B9CBF127CB85E8003B939B /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9B9CBF427CB85E8003B939B /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		A9B9CBF627CB85E8003B939B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A9B9CBF827CB85E8003B939B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9B9CBFB27CB85E8003B939B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9B9CC0227CD4DBB003B939B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		A9B9CC0427CD5233003B939B /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
-		A9B9CC0627CD5363003B939B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		A96C9D7E27D26F6400EDF953 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96C9D8127D26F6400EDF953 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
+		A96C9D8327D26F6400EDF953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A96C9D8527D26F6400EDF953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96C9D8827D26F6400EDF953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A96C9D9227D26FE200EDF953 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		A96C9D9427D2703B00EDF953 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A96C9D9E27D3E8AC00EDF953 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		A96C9DA027D3FBA700EDF953 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A96C9DA127D3FBA700EDF953 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A96C9DA227D3FBA700EDF953 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A96C9DA327D3FBA700EDF953 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9B9CBEE27CB85E8003B939B /* Frameworks */ = {
+		A96C9D7B27D26F6400EDF953 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +45,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A9B9CBE827CB85E8003B939B = {
+		A96C9D7527D26F6400EDF953 = {
 			isa = PBXGroup;
 			children = (
-				A9B9CBF327CB85E8003B939B /* CupcakeCorner */,
-				A9B9CBF227CB85E8003B939B /* Products */,
+				A96C9D8027D26F6400EDF953 /* CoreDataProject */,
+				A96C9D7F27D26F6400EDF953 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A9B9CBF227CB85E8003B939B /* Products */ = {
+		A96C9D7F27D26F6400EDF953 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9B9CBF127CB85E8003B939B /* CupcakeCorner.app */,
+				A96C9D7E27D26F6400EDF953 /* CoreDataProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9B9CBF327CB85E8003B939B /* CupcakeCorner */ = {
+		A96C9D8027D26F6400EDF953 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
-				A9B9CBF427CB85E8003B939B /* CupcakeCornerApp.swift */,
-				A9B9CBF627CB85E8003B939B /* ContentView.swift */,
-				A9B9CC0427CD5233003B939B /* AddressView.swift */,
-				A9B9CC0627CD5363003B939B /* CheckoutView.swift */,
-				A9B9CC0227CD4DBB003B939B /* Order.swift */,
-				A9B9CBF827CB85E8003B939B /* Assets.xcassets */,
-				A9B9CBFA27CB85E8003B939B /* Preview Content */,
+				A96C9DA027D3FBA700EDF953 /* Candy+CoreDataClass.swift */,
+				A96C9DA127D3FBA700EDF953 /* Candy+CoreDataProperties.swift */,
+				A96C9DA227D3FBA700EDF953 /* Country+CoreDataClass.swift */,
+				A96C9DA327D3FBA700EDF953 /* Country+CoreDataProperties.swift */,
+				A96C9D8127D26F6400EDF953 /* CoreDataProjectApp.swift */,
+				A96C9D9427D2703B00EDF953 /* DataController.swift */,
+				A96C9D8327D26F6400EDF953 /* ContentView.swift */,
+				A96C9D9E27D3E8AC00EDF953 /* FilteredList.swift */,
+				A96C9D9127D26FE200EDF953 /* CoreDataProject.xcdatamodeld */,
+				A96C9D8527D26F6400EDF953 /* Assets.xcassets */,
+				A96C9D8727D26F6400EDF953 /* Preview Content */,
 			);
-			path = CupcakeCorner;
+			path = CoreDataProject;
 			sourceTree = "<group>";
 		};
-		A9B9CBFA27CB85E8003B939B /* Preview Content */ = {
+		A96C9D8727D26F6400EDF953 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A9B9CBFB27CB85E8003B939B /* Preview Assets.xcassets */,
+				A96C9D8827D26F6400EDF953 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +90,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9B9CBF027CB85E8003B939B /* CupcakeCorner */ = {
+		A96C9D7D27D26F6400EDF953 /* CoreDataProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9B9CBFF27CB85E8003B939B /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
+			buildConfigurationList = A96C9D8C27D26F6400EDF953 /* Build configuration list for PBXNativeTarget "CoreDataProject" */;
 			buildPhases = (
-				A9B9CBED27CB85E8003B939B /* Sources */,
-				A9B9CBEE27CB85E8003B939B /* Frameworks */,
-				A9B9CBEF27CB85E8003B939B /* Resources */,
+				A96C9D7A27D26F6400EDF953 /* Sources */,
+				A96C9D7B27D26F6400EDF953 /* Frameworks */,
+				A96C9D7C27D26F6400EDF953 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CupcakeCorner;
-			productName = CupcakeCorner;
-			productReference = A9B9CBF127CB85E8003B939B /* CupcakeCorner.app */;
+			name = CoreDataProject;
+			productName = CoreDataProject;
+			productReference = A96C9D7E27D26F6400EDF953 /* CoreDataProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A9B9CBE927CB85E8003B939B /* Project object */ = {
+		A96C9D7627D26F6400EDF953 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					A9B9CBF027CB85E8003B939B = {
+					A96C9D7D27D26F6400EDF953 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A9B9CBEC27CB85E8003B939B /* Build configuration list for PBXProject "CupcakeCorner" */;
+			buildConfigurationList = A96C9D7927D26F6400EDF953 /* Build configuration list for PBXProject "CoreDataProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +130,48 @@
 				en,
 				Base,
 			);
-			mainGroup = A9B9CBE827CB85E8003B939B;
-			productRefGroup = A9B9CBF227CB85E8003B939B /* Products */;
+			mainGroup = A96C9D7527D26F6400EDF953;
+			productRefGroup = A96C9D7F27D26F6400EDF953 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9B9CBF027CB85E8003B939B /* CupcakeCorner */,
+				A96C9D7D27D26F6400EDF953 /* CoreDataProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A9B9CBEF27CB85E8003B939B /* Resources */ = {
+		A96C9D7C27D26F6400EDF953 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B9CBFC27CB85E8003B939B /* Preview Assets.xcassets in Resources */,
-				A9B9CBF927CB85E8003B939B /* Assets.xcassets in Resources */,
+				A96C9D8927D26F6400EDF953 /* Preview Assets.xcassets in Resources */,
+				A96C9D8627D26F6400EDF953 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A9B9CBED27CB85E8003B939B /* Sources */ = {
+		A96C9D7A27D26F6400EDF953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B9CC0327CD4DBB003B939B /* Order.swift in Sources */,
-				A9B9CC0527CD5233003B939B /* AddressView.swift in Sources */,
-				A9B9CC0727CD5363003B939B /* CheckoutView.swift in Sources */,
-				A9B9CBF727CB85E8003B939B /* ContentView.swift in Sources */,
-				A9B9CBF527CB85E8003B939B /* CupcakeCornerApp.swift in Sources */,
+				A96C9DA427D3FBA700EDF953 /* Candy+CoreDataClass.swift in Sources */,
+				A96C9DA727D3FBA700EDF953 /* Country+CoreDataProperties.swift in Sources */,
+				A96C9DA627D3FBA700EDF953 /* Country+CoreDataClass.swift in Sources */,
+				A96C9D8427D26F6400EDF953 /* ContentView.swift in Sources */,
+				A96C9D9F27D3E8AC00EDF953 /* FilteredList.swift in Sources */,
+				A96C9D9527D2703B00EDF953 /* DataController.swift in Sources */,
+				A96C9D9327D26FE200EDF953 /* CoreDataProject.xcdatamodeld in Sources */,
+				A96C9D8227D26F6400EDF953 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A9B9CBFD27CB85E8003B939B /* Debug */ = {
+		A96C9D8A27D26F6400EDF953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		A9B9CBFE27CB85E8003B939B /* Release */ = {
+		A96C9D8B27D26F6400EDF953 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,14 +287,14 @@
 			};
 			name = Release;
 		};
-		A9B9CC0027CB85E8003B939B /* Debug */ = {
+		A96C9D8D27D26F6400EDF953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
 				DEVELOPMENT_TEAM = 3BCV7Q9YUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -294,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitnoori.CupcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitnoori.CoreDataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,14 +316,14 @@
 			};
 			name = Debug;
 		};
-		A9B9CC0127CB85E8003B939B /* Release */ = {
+		A96C9D8E27D26F6400EDF953 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
 				DEVELOPMENT_TEAM = 3BCV7Q9YUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -323,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitnoori.CupcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitnoori.CoreDataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,25 +348,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9B9CBEC27CB85E8003B939B /* Build configuration list for PBXProject "CupcakeCorner" */ = {
+		A96C9D7927D26F6400EDF953 /* Build configuration list for PBXProject "CoreDataProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9B9CBFD27CB85E8003B939B /* Debug */,
-				A9B9CBFE27CB85E8003B939B /* Release */,
+				A96C9D8A27D26F6400EDF953 /* Debug */,
+				A96C9D8B27D26F6400EDF953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9B9CBFF27CB85E8003B939B /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
+		A96C9D8C27D26F6400EDF953 /* Build configuration list for PBXNativeTarget "CoreDataProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9B9CC0027CB85E8003B939B /* Debug */,
-				A9B9CC0127CB85E8003B939B /* Release */,
+				A96C9D8D27D26F6400EDF953 /* Debug */,
+				A96C9D8E27D26F6400EDF953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A96C9D9127D26FE200EDF953 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A96C9D9227D26FE200EDF953 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = A96C9D9227D26FE200EDF953 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = A9B9CBE927CB85E8003B939B /* Project object */;
+	rootObject = A96C9D7627D26F6400EDF953 /* Project object */;
 }
