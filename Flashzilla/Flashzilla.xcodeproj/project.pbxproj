@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9853E8227F3664400EFBFDE /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853E8127F3664400EFBFDE /* EditCards.swift */; };
 		A9AF8F2027F099DA00E4581B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF8F1F27F099DA00E4581B /* Card.swift */; };
 		A9AF8F2227F09ACE00E4581B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF8F2127F09ACE00E4581B /* CardView.swift */; };
 		A9E8D64127ED9BC4005A4D3F /* FlashzillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8D64027ED9BC4005A4D3F /* FlashzillaApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9853E8127F3664400EFBFDE /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		A9AF8F1F27F099DA00E4581B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		A9AF8F2127F09ACE00E4581B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A9E8D63D27ED9BC4005A4D3F /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 			children = (
 				A9AF8F2127F09ACE00E4581B /* CardView.swift */,
 				A9AF8F1F27F099DA00E4581B /* Card.swift */,
+				A9853E8127F3664400EFBFDE /* EditCards.swift */,
 				A9E8D64027ED9BC4005A4D3F /* FlashzillaApp.swift */,
 				A9E8D64227ED9BC4005A4D3F /* ContentView.swift */,
 				A9E8D64427ED9BC6005A4D3F /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				A9E8D64327ED9BC4005A4D3F /* ContentView.swift in Sources */,
 				A9AF8F2027F099DA00E4581B /* Card.swift in Sources */,
 				A9AF8F2227F09ACE00E4581B /* CardView.swift in Sources */,
+				A9853E8227F3664400EFBFDE /* EditCards.swift in Sources */,
 				A9E8D64127ED9BC4005A4D3F /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
