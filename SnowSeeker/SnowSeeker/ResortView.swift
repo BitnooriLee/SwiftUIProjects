@@ -10,6 +10,13 @@ import SwiftUI
 struct ResortView: View {
     let resort: Resort
     
+    @Environment(\.horizontalSizeClass) var sizeClass
+    @Environment(\.dynamicTypeSize) var typeSize
+    
+    @EnvironmentObject var favorites: Favorites
+    
+    @State private var seletedFacility: Facility?
+    @State private var showingFacility = false
     
     var body: some View {
         ScrollView {
@@ -19,11 +26,19 @@ struct ResortView: View {
                 .scaledToFit()
             
             HStack{
-                ResortDetailsView(resort: resort)
-                SkuDetailView(resort: resort)
+                if sizeClass == .compact && typeSize > .large {
+                    VStack(spacing: 10){
+                        ResortDetailsView(resort: resort) }
+                    VStack(spacing: 10){ SkuDetailView(resort: resort)}
+                } else {
+                    ResortDetailsView(resort: resort)
+                    SkuDetailView(resort: resort)
+                }
+               
             }
             .padding(.vertical)
             .background(Color.primary.opacity(0.1))
+            .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
             
             Group {
                 Text(resort.description)
@@ -31,9 +46,30 @@ struct ResortView: View {
                 
                 Text("Facilities")
                     .font(.headline)
+               
+                HStack {
+                    ForEach(resort.facilityTypes){
+                        facility in
+                        Button {
+                            seletedFacility = facility
+                            showingFacility = true
+                        } label: {
+                            facility.icon
+                                .font(.title)
+                        }
+                       
+                    }
+                }
+                Button(favorites.contains(resort) ? "Remove from Favorites" : "Add to Favorites") {
                 
-                Text(resort.facilities, format: .list(type: .and))
-                    .padding(.vertical)
+                if favorites.contains(resort) {
+                    favorites.remove(resort)
+                } else {
+                    favorites.add(resort)
+                }
+            }
+            .buttonStyle(.borderedProminent)
+            .padding()
             }
             .padding(.horizontal)
         }
@@ -41,6 +77,10 @@ struct ResortView: View {
         }
         .navigationTitle("\(resort.name), \(resort.country)")
         .navigationBarTitleDisplayMode(.inline)
+        .alert(seletedFacility?.name ?? "More information", isPresented: $showingFacility, presenting: seletedFacility) { _ in
+        } message: { facility in
+            Text(facility.description)
+        }
     }
 }
 
@@ -49,6 +89,7 @@ struct ResortView_Previews: PreviewProvider {
         NavigationView {
             ResortView(resort: Resort.example)
         }
+        .environmentObject(Favorites())
         
     }
 }
